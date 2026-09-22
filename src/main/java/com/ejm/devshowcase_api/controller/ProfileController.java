@@ -9,7 +9,7 @@ import com.ejm.devshowcase_api.service.ProfileService;
 import jakarta.validation.Valid;
 
 @RestController
-@RequestMapping("/profiles")
+@RequestMapping("/api/profiles")
 public class ProfileController {
 
     private final ProfileService service;

@@ -9,7 +9,7 @@ import com.ejm.devshowcase_api.service.TechnologyService;
 import jakarta.validation.Valid;
 
 @RestController
-@RequestMapping("/technologies")
+@RequestMapping("/api/technologies")
 public class TechnologyController {
 
     private final TechnologyService service;

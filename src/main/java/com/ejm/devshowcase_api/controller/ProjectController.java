@@ -9,7 +9,7 @@ import com.ejm.devshowcase_api.service.ProjectService;
 import jakarta.validation.Valid;
 
 @RestController
-@RequestMapping("/projects")
+@RequestMapping("/api/projects")
 public class ProjectController {
 
     private final ProjectService service;

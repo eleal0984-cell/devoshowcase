@@ -9,7 +9,7 @@ import com.ejm.devshowcase_api.service.FeedbackService;
 import jakarta.validation.Valid;
 
 @RestController
-@RequestMapping("/feedbacks")
+@RequestMapping("/api/feedbacks")
 public class FeedbackController {
 
     private final FeedbackService service;
